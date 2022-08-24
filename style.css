@@ -109,10 +109,7 @@ a:hover{
 
 
 
-#microphone{
-    height: 24px;
 
-}
 #mag{
     height: 20px;
     width: 20px;
@@ -125,6 +122,47 @@ a:hover{
 }
 
 #search {
+    height:34px ;
+    width: 460px;
+    margin-left: 10px;
+    border:none;
+    outline: none;
+    position: relative;
+    top:3px;
+    font-size: 16px;
+    
 
+
+}
+#microphone{
+    height: 24px;
+    position: relative;
+    top: 9px;
+    right: -20px;
+    /* left: 20px; */
+    cursor: pointer;
+
+
+
+}
+#keybord{
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.btn-container{
+    text-align: center;
+
+}
+#btn1,
+#btn2{
+    height:36px ;
+    min-width: 120px;
+    background-color: #f8f9FA;
+    border: 1px solid #f8f9FA;
+    border-radius: 4px;
+    color:#3c4043;
+    font-size: 14px;
+    
 }
 
