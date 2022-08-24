@@ -77,10 +77,25 @@ a:hover{
     width: 272px;
     height: 92px;
     display: block;
-    margin: 170px auto 0 ; 
+    margin: 170px auto 0; 
     /* margin saat yönünde 12 top 3 right 6 bottom 9 left  burada right 3 değer olunca right ve left ortak*/
 
 }
+
+.searchbar{
+    width: 583px;
+    height: 44px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    margin: 28px auto;
+
+
+}
+.searchbar:hover{
+    box-shadow: 0 0 10px lightgrey;
+}
+
+
 
 
 
@@ -101,6 +116,15 @@ a:hover{
 #mag{
     height: 20px;
     width: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 9px;
+    left: 8px;
+
+
+}
+
+#search {
 
 }
 
